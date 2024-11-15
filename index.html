@@ -5,35 +5,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Articulos de impresión 3D</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="shortcut icon"
+        href="https://th.bing.com/th/id/R.ec928e0a1ba6dd2aed2197d49f6ce667?rik=6NJnsZ4rcmc5lg&riu=http%3a%2f%2fwww.deprom.net%2fimages%2f2018%2f07%2f23%2fimpresora-3d.png&ehk=7H1Rcy4zUHEBisKBkTEmNp6g4yXY34XG7iRnr4M5%2bSE%3d&risl=&pid=ImgRaw&r=0"
+        type="image/x-icon">
+
 </head>
 
 <body>
 
     <head>
-        <h1>Articulos 3D que se ajustan a tus necesidades o a tus gustos</h1>
         <nav>
-            <a href="./pages/user.html">Un poco sobre mi </a>
-            <br>
-            <a href="./pages/registro.html">Registrate</a>
-            <br>
-            <a href="#">Carrito</a>
+            <ul>
+                <li>
+                    <h1>Articulos 3D que se ajustan a tus necesidades o a tus gustos</h1>
+                </li>
+                <li>
+                    <a href="./pages/user.html">Un poco sobre mi </a>
+                </li>
+                <li>
+                    <a href="./pages/registro.html">Registrate</a>
+                </li>
+                <li class="carrito">
+                    <a href="#">Carrito 🛒</a>
+                </li>
+            </ul>
         </nav>
     </head>
     <hr>
     <!-- Imagen llamativa con texto -->
-    <div>
-        <img src="./images/barco.jpg" alt="img de un barco impreso en 3D" width="500px">
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est repellat ducimus in impedit voluptatem quia
-            dolore
-            incidunt, eius officiis doloribus animi aut repellendus laborum ad iusto quaerat! Eaque, natus autem.</p>
+    <div class="medio">
+        <img src="./images/barco.jpg" alt="img de un barco impreso en 3D">
+        <div>
+            <h2>¿Imaginas crear cualquier objeto que puedas visualizar?</h2>
+            <p>La impresión 3D hace realidad esa idea, transformando
+                diseños digitales en objetos tangibles capa por capa. Desde prototipos rápidos hasta piezas
+                personalizadas,
+                esta tecnología revolucionaria está redefiniendo la fabricación. Ya sea que seas un diseñador, un
+                ingeniero
+                o simplemente alguien curioso, la impresión 3D te ofrece un mundo de posibilidades ilimitadas. ¡Descubre
+                cómo esta innovadora técnica está cambiando la forma en que diseñamos y producimos!
+            </p>
+        </div>
     </div>
+
     <hr>
     <!-- Ventajas de impresión 3D -->
-    <div>
+    <div class="ventajas">
         <h2>¿Por qué debería usar impresión 3D?</h2>
         <ul>
             <li>
-                <h3>Personalización total:</h3>
+                <h3>Personalización total</h3>
                 <p>Con la impresión 3D, puedes crear piezas y productos personalizados al 100%, desde accesorios hasta
                     herramientas únicas. Esto es ideal para proyectos específicos en los que necesitas algo hecho a la
                     medida o adaptado a tus necesidades.</p>
@@ -80,8 +106,7 @@
     </div>
     <!-- Tabla -->
     <hr>
-    <div>
-
+    <div class="tabla">
         <h2>Algunos productos base:</h2>
         <br>
         <table border="">
@@ -123,7 +148,6 @@
         </table>
     </div>
     <footer>
-        <hr>
         ©️Todos los derechos de esta página estan reservados
         <p>Cualquer duda, puedes consultar la información del autor en la sección: <a href="./pages/user.html">Un poco
                 sobre mi </a></p>

@@ -22,11 +22,13 @@ Este proyecto tiene como objetivo presentar una tienda de impresión 3D con un d
 
 ```plaintext
 tienda-impresion-3d/
-├── index.html     # Página principal
+├── images/
+│    └──   # Imágenes utilizadas en la página
+├── pages/
+│    └──   # páginas disponibles en el proyecto
 ├── styles/
 │   └── styles.css # Estilos de la página
-└── images/
-    └──   # Imágenes utilizadas en la página
+└── index.html     # Página principal
 ```
 
 ## Instalación
