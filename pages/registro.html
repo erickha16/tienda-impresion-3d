@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -8,7 +8,87 @@
 </head>
 
 <body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="../index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="#">Productos</a>
+                </li>
+                <li>
+                    <a href="#">Carrito</a>
+                </li>
+                <li>
+                    <a href="#">LogIn</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Contenido principal (main) -->
+    <main>
+        <!-- Aquí va el form -->
+        <h2>Regístrate aquí!</h2>
+        <form action="">
+            <div>
+                <label for="fname">Primer nombre</label>
+                <br>
+                <input type="text" name="fname" id="fname" placeholder="Primer nombre">
+            </div>
+            <br>
+            <div>
+                <label for="email">Email</label>
+                <br>
+                <input type="email" name="email" id="email" placeholder="user@correo.com">
+            </div>
+            <br>
+            <div>
+                <label for="cname">País de residencia</label>
+                <select name="cname" id="cname">
+                    <option value="mx">México</option>
+                    <option value="eu">EU</option>
+                    <option value="col">Colombia</option>
+                    <option value="arg">Argentina</option>
+                    <option value="per">Perú</option>
+                    <option value="chi">Chile</option>
+                </select>
+            </div>
+            <div>
+                <p>Género</p>
+                <input type="radio" name="gender" id="male" value="hombre">
+                <label for="male">Hombre</label>
+                <br>
+                <input type="radio" name="gender" id="female" value="mujer">
+                <label for="female">Mujer</label>
+                <br>
+                <input type="radio" name="gender" id="other" value="other">
+                <label for="other">Otro</label>
+            </div>
+            <br>
+            <div>
+                <input type="checkbox" name="legalPolicy" id="legalPolicy" value="true">
+                <label for="legalPolicy">Acepto los terminos y condiciones de uso legal de ese sitio</label>
+                <br>
+                <input type="checkbox" name="send_emails" id="send_emails" value="true">
+                <label for="send_emails">Acepto recibir correos con ofertas y nuevas noticias de la página</label>
+            </div>
+            <br>
+            <div>
+                <!-- <input type="submit" value="Sign Up"> -->
+                <button type="submit">Registrarse</button>
+            </div>
+        </form>
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <hr>
+        <h5>Todos los derechos reservados de esta tienda de impresión 3D</h5>
+    </footer>
     <a href="../index.html">⬅️ Vovler al inicio</a>
+
 </body>
 
 </html>
