@@ -4,6 +4,8 @@ body{
     font-weight: 400;
     font-style: normal;
 }
+
+/* --------------------------------------------------------------------------------------- Index --------------------------------------------------------------------------------------- */
 /* ----------------------------------------------------- Navbar ----------------------------------------------------- */
 nav ul {
     list-style-type: none;
@@ -70,15 +72,15 @@ nav ul {
 .ventajas {
     margin: 40px auto;
     padding: 20px;
-    width: 80%; /* Ajusta el ancho según prefieras */
-    background-color: #f9f9f9; /* Fondo claro */
-    border-radius: 10px; /* Bordes redondeados */
+    width: 80%; 
+    background-color: #f9f9f9;
+    border-radius: 10px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
 }
 
 .ventajas h2 {
     text-align: center;
-    color: #2a7d8c; /* Azul verdoso o el color principal de tu página */
+    color: #2a7d8c; 
     font-size: 2rem;
     font-weight: bold;
     margin-bottom: 20px;
@@ -106,7 +108,7 @@ div li {
 }
 
 .ventajas li h3 {
-    color: #2a7d8c; /* Azul verdoso para diferenciar */
+    color: #2a7d8c; 
     font-size: 1.5rem;
     margin-bottom: 10px;
 }
@@ -114,7 +116,7 @@ div li {
 
 .ventajas li p {
     font-size: 1rem;
-    color: #333; /* Un gris oscuro legible */
+    color: #333; 
     line-height: 1.6; /* Espaciado entre líneas */
     text-align: justify; /* Justificación para alineación perfecta */
 }
@@ -123,15 +125,15 @@ div li {
 .tabla {
     margin: 40px auto;
     padding: 20px;
-    width: 90%; /* Ajusta el ancho según lo necesites */
+    width: 90%; 
     background-color: #f9f9f9;
-    border-radius: 10px; /* Bordes redondeados */
+    border-radius: 10px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
 }
 
 .tabla h2 {
     text-align: center;
-    color: #2a7d8c; /* Azul verdoso */
+    color: #2a7d8c; 
     font-size: 2rem;
     margin-bottom: 20px;
     text-transform: uppercase;
@@ -144,8 +146,8 @@ table {
 }
 
 table th {
-    background-color: #2a7d8c; /* Fondo azul verdoso */
-    color: white; /* Texto blanco */
+    background-color: #2a7d8c; 
+    color: white; 
     padding: 10px;
     font-size: 1.2rem;
     text-transform: uppercase;
@@ -154,12 +156,12 @@ table th {
 table td {
     padding: 15px;
     font-size: 1rem;
-    color: #333; /* Texto gris oscuro */
+    color: #333; 
     border-bottom: 1px solid #ccc; /* Línea divisoria */
 }
 
 table td img {
-    border-radius: 10px; /* Bordes redondeados para las imágenes */
+    border-radius: 10px; 
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
     transition: transform 0.3s ease; /* Animación suave */
 }
@@ -169,7 +171,7 @@ table td img:hover {
 }
 
 table td button {
-    background-color: #2a7d8c; /* Azul verdoso */
+    background-color: #2a7d8c; 
     color: white;
     border: none;
     padding: 10px 15px;
@@ -180,34 +182,34 @@ table td button {
 }
 
 table td button:hover {
-    background-color: #206a78; /* Un azul más oscuro */
+    background-color: #206a78; 
     transform: scale(1.05); /* Ampliar un poco */
 }
 
 table tr:nth-child(even) {
-    background-color: #f0f8f8; /* Color suave para filas pares */
+    background-color: #f0f8f8; /* Color para filas pares */
 }
 
 /* ----------------------------------------------------- footer ----------------------------------------------------- */
 footer {
-    background-color: #2a7d8c; /* Fondo azul verdoso */
-    color: white; /* Texto blanco */
+    background-color: #2a7d8c; 
+    color: white; 
     text-align: center; /* Centrar el texto */
-    padding: 20px; /* Espaciado interno */
-    font-size: 0.9rem; /* Tamaño del texto */
-    border-top: 4px solid #206a78; /* Línea decorativa superior */
+    padding: 20px; 
+    font-size: 0.9rem; 
+    border-top: 4px solid #206a78; 
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Sombra superior suave */
 }
 
 footer hr {
     border: none; /* Elimina el estilo predeterminado */
     height: 1px; /* Ancho de la línea */
-    background-color: #206a78; /* Color de la línea */
+    background-color: #206a78; 
     margin: 10px 0; /* Margen superior e inferior */
 }
 
 footer p {
-    margin: 10px 0; /* Margen para separar el párrafo */
+    margin: 10px 0;
 }
 
 footer a {
@@ -221,6 +223,107 @@ footer a:hover {
     color: #ffb700; /* Dorado más claro al pasar el mouse */
 }
 
+/* --------------------------------------------------------------------------------------- About me --------------------------------------------------------------------------------------- */
+main h2{
+    display: block;
+    color: white;
+    background-color:  #2a7d8c;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+.aboutme {
+    display: flex; /* Flexbox para organizar los elementos en línea */
+    justify-content: space-between; /* Distribuye el espacio entre los elementos */
+    align-items: center; /* Centra los elementos verticalmente */
+    background: #85808070;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.aboutme img {
+    flex: 1; /* La imagen ocupará el 50% del espacio */
+    margin-left: 30px;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: 100%; /* Asegura que la imagen no exceda su contenedor */
+    height: 200px; /* Mantiene la proporción de la imagen */
+    object-fit: cover; /* Ajusta la imagen para que se vea bien */
+    border-radius: 25px;
+}
+
+.aboutme p {
+    flex: 1; /* La imagen ocupará el 50% del espacio */
+    font-size: 1.6rem;
+    
+}
+
+.contacto {
+    margin: 40px auto;
+    padding: 20px;
+    width: 80%; 
+    background-color: #f9f9f9; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.contacto h3 {
+    text-align: center;
+    color: #2a7d8c; 
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.contacto li {
+    margin-bottom: 20px; /* Espacio entre los elementos */
+    padding: 20px;
+    background-color: white;
+    border-left: 5px solid #2a7d8c; /* Línea decorativa a la izquierda */
+    border-radius: 5px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contacto li:hover {
+    transform: scale(1.02); /* Hace que el elemento crezca un poco */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Añade una sombra más fuerte */
+}
 
 
 
+/* --------------------------------------------------------------------------------------- Form --------------------------------------------------------------------------------------- */
+
+form {
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 40%; 
+    background-color: #f9f9f9; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+form div:last-child {
+    text-align: center; /* Centra el contenido del último div */
+}
+
+button {
+    background-color: #2a7d8c;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 25px;
+    align-self: center;
+  }
+  
+  button:hover {opacity: 1}
